@@ -1,0 +1,72 @@
+/*
+ 
+ AppearancePane.strings (Japanese)
+ 
+ CotEditor
+ http://coteditor.com
+ 
+ Created by 1024jp on 2014-11-04.
+ 
+ ------------------------------------------------------------------------------
+ 
+ © 2014 CotEditor Project
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ 
+ */
+
+/* Class = "NSTextFieldCell"; title = "Font:"; ObjectID = "Z85-S9-uID"; */
+"Z85-S9-uID.title" = "フォント：";
+/* Class = "NSButtonCell"; title = "Select…"; ObjectID = "3289"; */
+"3289.title" = "選択...";
+/* Class = "NSButtonCell"; title = "Anti-Aliasing"; ObjectID = "3290"; */
+"3290.title" = "アンチエイリアス適用";
+
+/* Class = "NSTextFieldCell"; title = "Line height:"; ObjectID = "r1c-v3-qW1"; */
+"r1c-v3-qW1.title" = "行の高さ：";
+/* Class = "NSTextFieldCell"; title = "times"; ObjectID = "VLD-jj-zzl"; */
+"VLD-jj-zzl.title" = "倍";
+/* Class = "NSButtonCell"; title = "Fix line height with composite font"; ObjectID = "3296"; */
+"3296.title" = "複合フォントでも高さを固定";
+
+/* Class = "NSTextFieldCell"; title = "Current line:"; ObjectID = "oKu-Fu-hRU"; */
+"oKu-Fu-hRU.title" = "現在の行：";
+/* Class = "NSButtonCell"; title = "Change background color"; ObjectID = "ba7-dE-zXz"; */
+"ba7-dE-zXz.title" = "背景カラーを変更";
+
+
+/* Class = "NSTableColumn"; headerCell.title = "Theme"; ObjectID = "Avf-y8-wXG"; */
+"Avf-y8-wXG.headerCell.title" = "テーマ";
+/* Class = "NSMenuItem"; title = "Export…"; ObjectID = "4B4-mq-8Fs"; */
+"4B4-mq-8Fs.title" = "書き出し...";
+/* Class = "NSMenuItem"; title = "Import…"; ObjectID = "gcs-B8-kPL"; */
+"gcs-B8-kPL.title" = "読み込み...";
+
+
+/* contextual menu */
+/* Class = "NSMenuItem"; title = "New Theme"; ObjectID = "sJb-7g-2FN"; */
+"sJb-7g-2FN.title" = "新規テーマ";
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "nWy-OL-CGi"; */
+"nWy-OL-CGi.title" = "名前を変更";
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "9LW-xw-HBP"; */
+"9LW-xw-HBP.title" = "複製";
+/* Class = "NSMenuItem"; title = "Restore"; ObjectID = "vTP-Fc-iBF"; */
+"vTP-Fc-iBF.title" = "元に戻す";
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "WNG-Ai-RdG"; */
+"WNG-Ai-RdG.title" = "削除";
+/* Class = "NSMenuItem"; title = "Export…"; ObjectID = "ueG-D7-DSV"; */
+"ueG-D7-DSV.title" = "書き出し...";
+/* Class = "NSMenuItem"; title = "Reveal in Finder"; ObjectID = "UMs-gY-YHE"; */
+"UMs-gY-YHE.title" = "Finder で表示";
+/* Class = "NSMenuItem"; title = "Import…"; ObjectID = "52n-xG-4ZL"; */
+"52n-xG-4ZL.title" = "読み込み...";

@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode7
+xcode_workspace: CotEditor.xcworkspace
+xcode_scheme:
+  - CotEditor
+  - CotEditor (AppStore)
+script: xctool -workspace CotEditor.xcworkspace -scheme "CotEditor (AppStore)" build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+before_install:
+  - gem install cocoapods
+
+# enable container-based infrastructure
+sudo: false
+cache: bundler

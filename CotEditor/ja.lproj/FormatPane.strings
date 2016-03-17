@@ -1,0 +1,89 @@
+/*
+ 
+ FormatPane.strings (Japanese)
+ 
+ CotEditor
+ http://coteditor.com
+ 
+ Created by 1024jp on 2014-11-04.
+ 
+ ------------------------------------------------------------------------------
+ 
+ © 2014 CotEditor Project
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ 
+ */
+
+/* Class = "NSTextFieldCell"; title = "Default line endings:"; ObjectID = "3273"; */
+"3273.title" = "改行コード：";
+/* Class = "NSMenuItem"; title = "OS X / Unix (LF)"; ObjectID = "15"; */
+"15.title" = "OS X / Unix (LF)";
+/* Class = "NSMenuItem"; title = "Classic Mac OS (CR)"; ObjectID = "14"; */
+"14.title" = "クラシック Mac OS (CR)";
+/* Class = "NSMenuItem"; title = "Windows (CR/LF)"; ObjectID = "12"; */
+"12.title" = "Windows (CR/LF)";
+
+
+/* Class = "NSTextFieldCell"; title = "Default text encoding:"; ObjectID = "3278"; */
+"3278.title" = "エンコーディング：";
+/* Class = "NSButtonCell"; title = "Save UTF-8 files with a BOM  (not recommended)"; ObjectID = "3281"; */
+"3281.title" = "UTF-8 のとき BOM も保存（非推奨）";
+
+/* Class = "NSTextFieldCell"; title = "Opening Files:"; ObjectID = "3277"; */
+"3277.title" = "ファイルを開くとき：";
+/* Class = "NSButtonCell"; title = "Edit List…"; ObjectID = "3275"; */
+"3275.title" = "リストを編集...";
+/* Class = "NSButtonCell"; title = "Refer to encoding declaration"; ObjectID = "3280"; */
+"3280.title" = "エンコーディング宣言を参照";
+
+
+/* Class = "NSButtonCell"; title = "Enable syntax highlighting"; ObjectID = "3326"; */
+"3326.title" = "シンタックスカラーリングを有効にする";
+/* Class = "NSTextFieldCell"; title = "(Including Outline Menu)"; ObjectID = "3325"; */
+"3325.title" = "（アウトラインを含む）";
+
+/* Class = "NSButtonCell"; title = "Delay coloring"; ObjectID = "3327"; */
+"3327.title" = "遅延カラーリング";
+
+/* Class = "NSTextFieldCell"; title = "Default syntax style:"; ObjectID = "3329"; */
+"3329.title" = "デフォルトスタイル：";
+
+/* Class = "NSTextFieldCell"; title = "Installed syntax styles:"; ObjectID = "vlw-Tc-sLl"; */
+"vlw-Tc-sLl.title" = "インストール済みスタイル：";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Remove selected style"; ObjectID = "dI1-Dk-Mce"; */
+"dI1-Dk-Mce.ibShadowedToolTip" = "選択したスタイルを削除";
+/* Class = "NSButton"; ibShadowedToolTip = "Add empty style"; ObjectID = "Hma-8v-2gu"; */
+"Hma-8v-2gu.ibShadowedToolTip" = "新規スタイルを追加";
+/* Class = "NSButton"; ibShadowedToolTip = "Edit selected style"; ObjectID = "Q0c-oI-um3"; */
+"Q0c-oI-um3.ibShadowedToolTip" = "選択したスタイルを編集";
+
+
+/* Class = "NSMenuItem"; title = "Import…"; ObjectID = "1lj-x8-ouD"; */
+"1lj-x8-ouD.title" = "読み込み...";
+/* Class = "NSMenuItem"; title = "Show File Mapping Conflicts…"; ObjectID = "hyN-4W-57i"; */
+"hyN-4W-57i.title" = "ファイル関連付けのコンフリクトを表示...";
+
+
+/* contextual menu */
+/* Class = "NSMenuItem"; title = "Edit…"; ObjectID = "371-P0-KPK"; */
+"371-P0-KPK.title" = "編集...";
+/* Class = "NSMenuItem"; title = "Duplicate…"; ObjectID = "5oN-VC-ot9"; */
+"5oN-VC-ot9.title" = "複製...";
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "NDE-r5-xAF"; */
+"NDE-r5-xAF.title" = "削除";
+/* Class = "NSMenuItem"; title = "Export…"; ObjectID = "Qwp-u8-Urf"; */
+"Qwp-u8-Urf.title" = "書き出し...";
+/* Class = "NSMenuItem"; title = "Reveal in Finder"; ObjectID = "AkE-0P-0FC"; */
+"AkE-0P-0FC.title" = "Finder で表示";

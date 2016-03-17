@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+ Additional Help Style Sheet for Index Pages
+ 
+ CotEditor
+ http://coteditor.com
+ 
+ © 2006-2015 CotEditor Project
+*/
+
+
+h1::before {
+	display: none;
+}
+
+ul {
+	margin: 1em 0;
+	padding: 0;
+	background: none;
+	border: none;
+	list-style-type: none;
+}
+
+body > ul li {
+	border-bottom: 1px solid hsl(0,0%,80%);
+	padding: 2px 0;
+}

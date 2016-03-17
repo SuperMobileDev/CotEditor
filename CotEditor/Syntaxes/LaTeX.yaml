@@ -1,0 +1,110 @@
+extensions:
+- keyString: "tex"
+- keyString: "TEX"
+- keyString: "sty"
+- keyString: "cls"
+outlineMenu:
+- beginString: "[\\\\¥]chapter\\*?\\{(.*)\\}"
+  keyString: "$1"
+- beginString: "[\\\\¥]part\\*?\\{(.*)\\}"
+  keyString: "$1"
+  bold: true
+- beginString: "[\\\\¥]section\\*?\\{(.*)\\}"
+  keyString: "    $1"
+- beginString: "[\\\\¥]subsection\\*?\\{(.*)\\}"
+  keyString: "        $1"
+- beginString: "[\\\\¥]subsubsection\\*?\\{(.*)\\}"
+  keyString: "            $1"
+comments: []
+metadata:
+  distributionURL: "http://coteditor.com"
+  author: "Yuhei Kuratomi"
+  license: "Same as CotEditor"
+  lastModified: "2014-10-27"
+  description: "Maintained by CotEditor Project."
+  version: "2.0"
+numbers:
+- beginString: "[\\\\¥]frac\\{[^}]+\\}\\{[^}]"
+  endString: "\\}"
+  regularExpression: true
+commands:
+- beginString: "[\\\\¥]caption\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]centering"
+  regularExpression: true
+- beginString: "[\\\\¥]cite\\{([^}])+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]file\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]hfill"
+  regularExpression: true
+- beginString: "[\\\\¥]includegraphics(\\[.+\\])?\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]label\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]LARGE"
+  regularExpression: true
+- beginString: "[\\\\¥]Large"
+  regularExpression: true
+- beginString: "[\\\\¥]large"
+  regularExpression: true
+- beginString: "[\\\\¥]maketitle"
+  regularExpression: true
+- beginString: "[\\\\¥]normalsize"
+  regularExpression: true
+- beginString: "[\\\\¥]ref\\{([^}])+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]renewcommand.*$"
+  regularExpression: true
+- beginString: "[\\\\¥]sf"
+  regularExpression: true
+- beginString: "[\\\\¥]text(tt|bf)\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]tt"
+  regularExpression: true
+- beginString: "^\\s*[\\\\¥]item"
+  regularExpression: true
+values:
+- beginString: "[\\\\¥](La)?TeXe?"
+  regularExpression: true
+- beginString: "\\$([^$\\n]+)\\$"
+  regularExpression: true
+keywords:
+- beginString: "[\\\\¥]author\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]begin\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]chapter\\*?\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]date\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]documentclass(\\[.+\\])?\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]end\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]pagestyle\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]part\\{.+\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]section\\*?\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]subsection\\*?\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]subsubsection\\*?\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]title\\{.*\\}"
+  regularExpression: true
+- beginString: "[\\\\¥]usepackage(\\[.+\\])?\\{.+\\}"
+  regularExpression: true
+strings: []
+commentDelimiters:
+  inlineDelimiter: "%"
+characters: []
+completions:
+- keyString: "begin"
+- keyString: "chapter"
+- keyString: "end"
+- keyString: "equation"
+- keyString: "section"
+- keyString: "subsection"
+- keyString: "subsubsection"

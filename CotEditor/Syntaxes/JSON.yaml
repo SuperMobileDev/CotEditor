@@ -1,0 +1,26 @@
+extensions:
+- keyString: "json"
+- keyString: "geojson"
+- keyString: "cottheme"
+outlineMenu: []
+completions: []
+commands: []
+metadata:
+  author: "1024jp"
+  distributionURL: "http://coteditor.com"
+  version: "1.2.0"
+  license: "Same as CotEditor"
+  lastModified: "2015-10-05"
+characters: []
+comments: []
+values:
+- beginString: "false"
+- beginString: "null"
+- beginString: "true"
+numbers:
+- beginString: "(?<=[:,\\[])[\\n\\t ]*-?[0-9]+(\\.[0-9])?([eE][-+]?[0-9]+)?\\b"
+  regularExpression: true
+strings:
+- beginString: "\""
+  endString: "\""
+keywords: []

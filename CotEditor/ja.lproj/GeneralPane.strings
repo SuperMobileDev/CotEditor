@@ -1,0 +1,71 @@
+/*
+ 
+ GenearalPane.strings (Japanese)
+ 
+ CotEditor
+ http://coteditor.com
+ 
+ Created by 1024jp on 2014-11-04.
+ 
+ ------------------------------------------------------------------------------
+ 
+ © 2014-2015 CotEditor Project
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ 
+ */
+
+/* Class = "NSTextFieldCell"; title = "Application:"; ObjectID = "lzy-Ei-xlT"; */
+"lzy-Ei-xlT.title" = "アプリケーション：";
+
+/* Class = "NSButtonCell"; title = "Share find text with other applications"; ObjectID = "3307"; */
+"3307.title" = "検索文字列をほかのアプリケーションと共有";
+/* Class = "NSButtonCell"; title = "Inline script menu items into contextual menu"; ObjectID = "3309"; */
+"3309.title" = "コンテキストメニューのスクリプトメニューを展開";
+/* Class = "NSButtonCell"; title = "Count each line ending as one character"; ObjectID = "3306"; */
+"3306.title" = "改行コードを文字としてカウント";
+/* Class = "NSButtonCell"; title = "Check spelling as you type"; ObjectID = "3300"; */
+"3300.title" = "入力中に自動スペルチェック";
+
+
+/* Class = "NSTextFieldCell"; title = "Open a new document:"; ObjectID = "zDW-aW-9G8"; */
+"zDW-aW-9G8.title" = "新規書類を開く：";
+
+/* Class = "NSButtonCell"; title = "On launch"; ObjectID = "3298"; */
+"3298.title" = "起動したとき";
+/* Class = "NSButtonCell"; title = "When CotEditor becomes active"; ObjectID = "3299"; */
+"3299.title" = "CotEditor がアクティブになるとき";
+
+
+/* Class = "NSTextFieldCell"; title = "When document is modified by another application:"; ObjectID = "x4n-2n-I3p"; */
+"x4n-2n-I3p.title" = "書類がほかのアプリケーションによって変更されたとき：";
+
+/* Class = "NSButtonCell"; title = "Keep CotEditor’s edition"; ObjectID = "DnS-XJ-7RI"; */
+"DnS-XJ-7RI.title" = "CotEditor の編集内容を保持";
+/* Class = "NSButtonCell"; title = "Ask how to resolve"; ObjectID = "1qS-Ay-sca"; */
+"1qS-Ay-sca.title" = "解決方法を確認";
+/* Class = "NSButtonCell"; title = "Update to modified edition"; ObjectID = "FWi-En-qeX"; */
+"FWi-En-qeX.title" = "変更された内容に更新";
+
+
+/* Class = "NSTextFieldCell"; title = "Software Update:"; ObjectID = "geU-63-sAC"; */
+"geU-63-sAC.title" = "ソフトウェアアップデート：";
+
+/* Class = "NSButtonCell"; title = "Automatically check for updates"; ObjectID = "3423"; */
+"3423.title" = "自動的にアップデートを確認";
+
+/* Class = "NSButtonCell"; title = "Include pre-releases"; ObjectID = "4aT-ka-sbv"; */
+"4aT-ka-sbv.title" = "プレリリース版を対象に含める";
+
+/* Class = "NSButtonCell"; title = "Regardless of this setting, new pre-releases are always included while using a pre-release."; ObjectID = "chR-VY-cuI"; */
+"chR-VY-cuI.title" = "この設定に関わらず、プレリリース版の使用中は必ず新しい\nプレリリースもアップデート対象に含まれます。";
